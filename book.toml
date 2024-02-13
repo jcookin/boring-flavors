@@ -3,4 +3,11 @@ authors = ["jcookin"]
 language = "en"
 multilingual = false
 src = "src"
-title = "boring-tasking"
+title = "boring-flavors"
+
+[output.html]
+additional-js = ["src/rendering/flavors.js"]
+# additional-css = ["src/rendering/flavors.css"]
+
+[output.html.playground]
+editable = true
